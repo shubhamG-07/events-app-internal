@@ -1,5 +1,11 @@
 {
+    "build": {
+        "@saveall": true
+    },
     "extensions": {
+        "@aws.profile": "ec2:instance",
+        "@git.confirmSync": false,
+        "@git.ignoreLimitWarning": true,
         "@json.schemas": []
     },
     "instance": {
